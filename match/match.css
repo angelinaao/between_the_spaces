@@ -31,7 +31,7 @@ background-color:#470E0E;
 .overlay-container {
   position: relative;
   z-index: 100;
-  /* this was 10, make it 100 */
+
   padding-top: 0vh; /* start after full screen to show background */
   display: flex;
   flex-direction: column;
@@ -305,7 +305,7 @@ left: -0.2vw;
 }
 .dot_6{
   top: 54vh;
-  right: -.5vw;
+  right: -.3vw;
 }
 .dot_7{
   top: 97.5vh;
@@ -371,11 +371,44 @@ left: -0.2vw;
   transition: opacity 0.4s ease;
   opacity: 0;
 }
+#thirdoverlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #491A43; /* green or whatever color you want */
+  z-index: 100;
+  display: none;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+#fourthoverlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #732F16; /* green or whatever color you want */
+  z-index: 100;
+  display: none;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+#fifthoverlay{
+  background-color: #993f48;
+}
+#sixthoverlay{
+  background-color: #491A43;
+}
+
 
 #secondoverlay img {
   position: absolute;
-  top: 58%;
-  left: 50%;
+  top: 42%;
+  left: 47%;
   transform: translate(-50%, -50%);
   width: 88vw;
   height: auto;
@@ -401,4 +434,133 @@ left: -0.2vw;
 }
 .purple{
   color: #f1b76d;
+}
+
+#fourthoverlay img,
+
+
+#seventhoverlay img {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 88vw;
+  height: auto;
+  object-fit: contain;
+}
+#thirdoverlay img{
+    position: absolute;
+  top: 33%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 88vw;
+  height: auto;
+  object-fit: contain;
+}
+#fifthoverlay img{
+  position: absolute;
+  top: 49.5%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  height: auto;
+  object-fit: contain;
+}
+#sixthoverlay img{
+   position: absolute;
+  top: 58%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 88vw;
+  height: auto;
+  object-fit: contain;
+}
+/* .overlay_purpledot{
+  top: 54vh;
+  right: -.5vw;
+
+} */
+
+.overlay_orangedot {
+  top: 22vh;
+  left: -0.2vw;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #E89F57;
+  cursor: pointer;
+  z-index: 11;
+  opacity: 0; /* START HIDDEN */
+  transition: opacity 0.4s ease;
+}
+.overlay_yellowdot {
+  top: 59vh;
+    left: 6vw;
+  
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #E89F57;
+  cursor: pointer;
+  z-index: 11;
+  opacity: 0; /* START HIDDEN */
+  transition: opacity 0.4s ease;
+}
+
+.overlay_greendot {
+  top: 10vh;
+  left: 5vw;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #D3D846;
+  cursor: pointer;
+  z-index: 11;
+  opacity: 0; /* START HIDDEN */
+  transition: opacity 0.4s ease;
+}
+
+.overlay_purpledot {
+  top: 54vh;
+  right: -.3vw;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #DE74D8;
+  cursor: pointer;
+  z-index: 11;
+  opacity: 0; /* START HIDDEN */
+  transition: opacity 0.4s ease;
+}
+.overlay_purpledotone {
+  
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #DE74D8;
+  cursor: pointer;
+  z-index: 11;
+  opacity: 0; /* START HIDDEN */
+  transition: opacity 0.4s ease;
+  top: 20vh;
+    right: 4vw
+}
+
+.overlay_pinkdot {
+  top: 45vh;
+  right: 6vw;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #FFADD1;
+  cursor: pointer;
+  z-index: 11;
+  opacity: 0; /* START HIDDEN */
+  transition: opacity 0.4s ease;
 }
