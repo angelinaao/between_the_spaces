@@ -36,7 +36,9 @@ const dotSequence = [
 { from: 3, to: 4, overlayId: 'thirdoverlay', overlayDotClass: 'overlay_purpledotone', dotColor: '#DE74D8' },  
 { from: 4, to: 5, overlayId: 'fourthoverlay', overlayDotClass: 'overlay_yellowdot', dotColor: '#E89F57' },   
 { from: 5, to: 6, overlayId: 'fifthoverlay', overlayDotClass: 'overlay_pinkdot', dotColor: '#FFADD1' },
-{ from: 6, to: 7, overlayId: 'sixthoverlay', overlayDotClass: 'overlay_purpledot', dotColor: '#DE74D8' }
+{ from: 6, to: 7, overlayId: 'sixthoverlay', overlayDotClass: 'overlay_purpledot', dotColor: '#DE74D8' },
+{ from: 7, to: null, overlayId: 'seventhoverlay', overlayDotClass: 'overlay_greendottwo', dotColor: '#D3D848'}
+
 ];
 
 const svgCanvas = document.getElementById('lineCanvas');
