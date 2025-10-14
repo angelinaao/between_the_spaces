@@ -440,7 +440,7 @@ left: -0.2vw;
   color: #f1b76d;
 }
 
-#fourthoverlay img,
+
 
 
 #seventhoverlay img {
@@ -449,6 +449,15 @@ left: -0.2vw;
   left: 64%;
   transform: translate(-50%, -50%);
   width: 70vw;
+  height: auto;
+  object-fit: contain;
+}
+#fourthoverlay img {
+  position: absolute;
+  top: 70%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  width: 88vw;
   height: auto;
   object-fit: contain;
 }
